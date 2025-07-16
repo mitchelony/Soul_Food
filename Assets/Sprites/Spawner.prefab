@@ -110,5 +110,5 @@ MonoBehaviour:
   currWave: 1
   customersToSpawn: []
   spawnLocation: {fileID: 0}
-  customerSpacing: 1
+  customerSpacing: 0.2
   waveDuration: 2
