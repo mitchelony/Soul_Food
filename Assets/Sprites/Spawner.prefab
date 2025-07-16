@@ -102,11 +102,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Customers:
   - CustomerPrefab: {fileID: 7296688097591738320, guid: be10438d8bd3547b4bb79b29ddd3d8ac, type: 3}
-    cost: 5
+    cost: 3
   - CustomerPrefab: {fileID: 5597587046271770857, guid: b43066158065f4517ba0eac8ce2dee9d, type: 3}
-    cost: 2
+    cost: 1
   - CustomerPrefab: {fileID: 3927715493760596663, guid: 0665c76aabd234f2c9523a71c02f3a24, type: 3}
-    cost: 2
+    cost: 1
   currWave: 1
-  waveValue: 0
   customersToSpawn: []
+  spawnLocation: {fileID: 0}
+  customerSpacing: 1
+  waveDuration: 2
