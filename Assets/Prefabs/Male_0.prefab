@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &2677147270662579867
+--- !u!1 &911459800322927775
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,38 +8,37 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 8811388904750133988}
-  - component: {fileID: 3589994780161546916}
-  - component: {fileID: -5534426795602507140}
+  - component: {fileID: 6636418539352989595}
+  - component: {fileID: 3411189614367458432}
   m_Layer: 0
-  m_Name: Spawner
-  m_TagString: Spawner
+  m_Name: Male_0
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &8811388904750133988
+--- !u!4 &6636418539352989595
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2677147270662579867}
+  m_GameObject: {fileID: 911459800322927775}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -16.34, y: -19.61, z: 0}
-  m_LocalScale: {x: 2, y: 2, z: 2}
+  m_LocalPosition: {x: -5.57, y: 1.73, z: 0}
+  m_LocalScale: {x: 0.7, y: 0.7, z: 0.7}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!212 &3589994780161546916
+--- !u!212 &3411189614367458432
 SpriteRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2677147270662579867}
+  m_GameObject: {fileID: 911459800322927775}
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
@@ -77,38 +76,14 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -2413806693520163455, guid: a86470a33a6bf42c4b3595704624658b, type: 3}
-  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_Sprite: {fileID: -5912479471324642444, guid: 87eca978c1f894777b4010a5d16f7b4f, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 0.6, y: 1.11}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 2
   m_SpriteSortPoint: 0
---- !u!114 &-5534426795602507140
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2677147270662579867}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 06ee4c1661204492492ff05f6726dee5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Customers:
-  - CustomerPrefab: {fileID: 7296688097591738320, guid: be10438d8bd3547b4bb79b29ddd3d8ac, type: 3}
-    cost: 3
-  - CustomerPrefab: {fileID: 5597587046271770857, guid: b43066158065f4517ba0eac8ce2dee9d, type: 3}
-    cost: 1
-  - CustomerPrefab: {fileID: 3927715493760596663, guid: 0665c76aabd234f2c9523a71c02f3a24, type: 3}
-    cost: 1
-  currWave: 1
-  customersToSpawn: []
-  spawnLocation: {fileID: 0}
-  customerSpacing: 0.2
-  waveDuration: 2
