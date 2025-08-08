@@ -5,7 +5,10 @@ using TMPro;
 public class RatingSystem : MonoBehaviour, IDropHandler
 {
     int customersServed = 0;
-    float overallRating = 5.0f;
+    public static float overallRating = 0.0f;
+    // changed this from 5.0f to 0.0f
+    // if you didn't serve anyone at the end, rating isn't 5 stars immediately (no free wins)
+    // also made it public static so other scripts could access
     float ratingReceived = 0.0f;
 
     public TMP_Text ratingText; 
